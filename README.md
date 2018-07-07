@@ -8,11 +8,19 @@ The easiest way to install aah CLI for macOS via package manager [Homebrew](http
 ## Installation
 
 ```bash
-brew tap go-aah/tap
-brew install aah
-
-# One line command
 brew install go-aah/tap/aah
+```
+
+## Upgrade
+
+```bash
+brew upgrade aah
+```
+
+## Uninstall
+
+```bash
+brew remove aah
 ```
 
 Visit official website https://aahframework.org to learn more about `aah` framework.
