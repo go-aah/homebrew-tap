@@ -1,11 +1,11 @@
 class Aah < Formula
     desc "aah framework CLI, a developer assistant"
     homepage "https://aahframework.org"
-    version "0.11.0"
+    version "0.12.0"
 
     if OS.mac?
-        url "https://dl.aahframework.org/releases/cli/0.11.0/aah_darwin_amd64.zip"
-        sha256 "4acbd43a00c48f6234b1c3a68e3a7b12d3a98eea4af9533c56637bf10bce0aaa"
+        url "https://dl.aahframework.org/releases/cli/0.12.0/aah_darwin_amd64.zip"
+        sha256 "9d04518107c8a23b3f1cde49360da5a2710d3f2b9b2be9d5faa8052c75458179"
     elsif OS.linux?
         # upcoming :)
     else
